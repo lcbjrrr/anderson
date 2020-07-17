@@ -1,4 +1,6 @@
 
+//exemplo 1 
+
 function calcMedia(notas){
     soma = 0
     for (i=0;i<notas.length;i=i+1){
