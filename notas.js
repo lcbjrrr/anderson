@@ -21,7 +21,6 @@ console.log(nota_luiz)
 function notasFinal(turma){
     for (aluno in turma){
         notas_aluno = turma[aluno]  
-        console.log(notas_aluno )
         media_aluno = calcMedia(notas_aluno)  
         console.log(aluno +" "  +media_aluno) 
     }    
