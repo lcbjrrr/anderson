@@ -16,7 +16,8 @@ console.log(mt)
 turma = {"luiz":5,
         "anderson":10};
 nota_luiz = turma["luiz"]
-console.log(nota_luiz)
+console.log(nota_luiz);
+
 
 
 
