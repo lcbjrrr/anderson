@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "Hello"
 name = "Anderson"
 print(type(name))
@@ -23,3 +24,16 @@ print(output)
 
 
 
+=======
+
+
+def nome_completo(n,s):
+    n_c = n + ' ' +s
+    return(n_c)
+
+nome = 'luiz'
+sobrenome = 'barboza'
+
+luiz= nome_completo(nome,sobrenome)
+print(luiz)
+>>>>>>> fcfdd56aaf529887c85b024876a9eaf5ea30927b
