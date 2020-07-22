@@ -34,3 +34,13 @@ sobrenome = 'barboza'
 
 luiz= nome_completo(nome,sobrenome)
 print(luiz)
+
+
+#PythonEstruturadeDados
+
+our_list = [98, 12, 20, 13, 5]
+print(our_list)
+type(our_list)
+
+Anderson = [16,17,18,19, "A", "B", "C", "9", False, True ]
+Anderson[2]
