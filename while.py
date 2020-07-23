@@ -18,6 +18,5 @@ L = []
 while len(L)> 5:
     new_name = ("por favor, adicione algum nome")
     L.append(new_name)
-    print("Sorry, list is full")
+    print('Sorry, list is full')
     print(L)
-    
