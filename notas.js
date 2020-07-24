@@ -13,30 +13,11 @@ notasTurma = [5.0,5.0,6.0,6.0,7.0,7.0,8.0,8.0,9.0,9.0]
 mt = calcMedia(notasTurma)
 console.log(mt)
 
-<<<<<<< HEAD
 turma = {"luiz":5,
         "anderson":10};
 nota_luiz = turma["luiz"]
 console.log(nota_luiz);
 
-=======
-
-
-function mediaDicionarioTurma(dic_turma){
-    soma =0;
-    tam =0
-    for (aluno in dic_turma){ 
-        soma = soma + dic_turma[aluno];
-        tam++
-    } 
-    return soma / tam
-}
-
-turma_dic = {"luiz":5.0,
-        "anderson":10.0};
-turma_dic_media = mediaDicionarioTurma(turma_dic)
-console.log(turma_dic_media)
->>>>>>> fcfdd56aaf529887c85b024876a9eaf5ea30927b
 
 
 
