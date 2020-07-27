@@ -37,6 +37,14 @@ turma_final = {"luiz":[5,6,7],
              "anderson":[7,8,9]}
 notas_final(turma_final) 
 
+def notas_final2(turma):
+    for notas_aluno in turma.values(): 
+        media_aluno = calc_media(notas_aluno)
+        print(" "  +str(media_aluno)) 
+
+turma_final = {"luiz":[5,6,7],
+             "anderson":[7,8,9]}
+notas_final2(turma_final) 
 
 
 
